@@ -1,8 +1,8 @@
 import os, datetime, tempfile
 import discord, gdown
 
-TOKEN = os.environ["DISCORD_BOT_TOKEN"]
-CHANNEL_ID = int(os.environ["DISCORD_CHANNEL_ID"])
+TOKEN = os.environ["https://discord.com/api/webhooks/1435547750161973308/af3RL4kxXCGxfG4-jEYlAWMGC4Pdg8eVfiXylBA0JJQAaJeMuAhONOkrD9ag7pivRpHi"]
+CHANNEL_ID = int(os.environ["1435554112912490598"])
 
 def pick(lines):
     lines = [x.strip() for x in lines if x.strip() and not x.strip().startswith("#")]
