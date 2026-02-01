@@ -1,7 +1,7 @@
 import datetime, tempfile, os
 import requests, gdown
 
-WEBHOOK = os.environ["https://discord.com/api/webhooks/1435547750161973308/af3RL4kxXCGxfG4-jEYlAWMGC4Pdg8eVfiXylBA0JJQAaJeMuAhONOkrD9ag7pivRpHi"]
+WEBHOOK = os.environ["DISCORD_WEBHOOK"]
 
 lines = [x.strip() for x in open("videos.txt") if x.strip()]
 i = datetime.date.today().toordinal() % len(lines)
